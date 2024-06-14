@@ -129,12 +129,12 @@ body{
 {
     border:1px solid;
     position: absolute;
-    top: 100%;
-    right: 2rem;
+    top: 110%;
+    right: -110%;
     padding: 1rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    width: 30rem;
+    width: 35rem;
 
     background: #fff;
 }
@@ -163,4 +163,58 @@ body{
 .header .shopping-cart .box .fa-trash:hover
 {
     color: var(--green);
+}
+
+.header .shopping-cart .box .content h3
+{
+    color: var(--black);
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+.header .shopping-cart .box .content span
+{
+    color: var(--light-color);
+    font-size: 1.6rem;
+}
+
+.header .shopping-cart .box .content .quantity
+{
+    padding-left: 1rem;
+}
+.header .shopping-cart .total
+{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--black);
+}
+
+.btn
+{
+    border: .2rem solid var(--black);
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+.btn:hover
+{
+    background: var(--green);
+    color: #fff;
+}
+
+.header .shopping-cart .btn
+{
+    display: block;
+    text-align: center;
+    margin: 1rem 0;
+}
+.header .shopping-cart.active
+{
+    right: 2rem;
+    transition: .4s linear;
 }
