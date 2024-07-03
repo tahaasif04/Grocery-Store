@@ -291,8 +291,22 @@ transition: .4s linear;
 
 }
 
+section 
+{
+    padding: 2rem 9%;
+}
 
-
+.home I
+{
+border: 1px solid;
+display: flex;
+justify-content: center;
+background: url(../images/banner.jpg) no-repeat;
+background-position: center;
+background-size: cover;
+padding-top: 17rem;
+padding-bottom: 10rem;
+}
 
 /* media queires */
 @media (max-width: 991px)
@@ -307,6 +321,11 @@ font-size: 55%;
     padding: 2rem;
 }
 
+section
+{
+    padding: 2rem;
+}
+
 }
 
 @media (max-width:768px)
@@ -314,6 +333,11 @@ font-size: 55%;
     #menu-btn
  {
     display: inline-block;
+}
+
+.header .search-form 
+{
+    width:90%;
 }
 
 .header .navbar
@@ -346,3 +370,4 @@ html
 font-size: 50%;
 }
 }
+
