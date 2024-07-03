@@ -296,9 +296,9 @@ section
     padding: 2rem 9%;
 }
 
-.home I
+.home
 {
-border: 1px solid;
+border: 0px solid;
 display: flex;
 justify-content: center;
 background: url(../images/banner.jpg) no-repeat;
@@ -308,6 +308,32 @@ padding-top: 17rem;
 padding-bottom: 10rem;
 }
 
+.home .content
+{
+border: 0px solid;
+text-align: center;
+width: 60rem;
+}
+
+.home .content h3
+{
+
+color: var( -- black);
+font-size: 3rem;
+}
+.home .content h3 span
+{
+
+color: var( --green);
+}
+.home .content p
+{
+
+color: var( --light-color);
+font-size: 1.7rem;
+padding: 1rem 0;
+line-height: 1.8;
+}
 /* media queires */
 @media (max-width: 991px)
 {
