@@ -1,134 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- Header Section -->
-    <header class="header">
-      <a href="#" class="logo"><i class="fa fa-shopping-basket"></i>Grocery</a>
-      <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#features">features</a>
-        <a href="#products">products</a>
-        <a href="#categories">categories</a>
-        <a href="#review">review</a>
-        <a href="#blog">blog</a>
-      </nav>
-      <div class="icons">
-        <div class="fa fa-bars" id="menu-btn"></div>
-        <div class="fa fa-search" id="search-btn"></div>
-        <div class="fa fa-shopping-cart" id="cart-btn"></div>
-        <div class="fa fa-user" id="login-btn"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <a href="#" class="logo"><i class="fa fa-shopping-basket"></i>Grocery</a>
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#features">features</a>
+      <a href="#products">products</a>
+      <a href="#categories">categories</a>
+      <a href="#review">review</a>
+      <a href="#blog">blog</a>
+    </nav>
+    <div class="icons">
+      <div class="fa fa-bars" id="menu-btn"></div>
+      <div class="fa fa-search" id="search-btn"></div>
+      <div class="fa fa-shopping-cart" id="cart-btn"></div>
+      <div class="fa fa-user" id="login-btn"></div>
+    </div>
+    <form class="search-form">
+      <input type="search" id="search-box" placeholder="Search Here....." />
+      <label for="search-box" class="fa fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="images/watermelon.png" />
+        <div class="content">
+          <h3>watermelon</h3>
+          <span class="price">$5.99/-</span>
+          <span class="quantity">Qty :1</span>
+        </div>
       </div>
-      <form class="search-form">
-        <input type="search" id="search-box" placeholder="Search Here....." />
-        <label for="search-box" class="fa fa-search"></label>
-      </form>
-      <div class="shopping-cart">
+      <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="images/onion.png" />
+        <div class="content">
+          <h3>Onion</h3>
+          <span class="price">$4.99/-</span>
+          <span class="quantity">Qty :1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="images/chicken.png" />
+        <div class="content">
+          <h3>Chicken</h3>
+          <span class="price">$2.99/-</span>
+          <span class="quantity">Qty :1</span>
+        </div>
+      </div>
+      <div class="total">
+
+        Total : $18.97/-
+      </div>
+      <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="#" class="login-form">
+      <h3>login now</h3>
+      <input type="email" placeholder="your email" class="box">
+      <input type="password" placeholder="your password" class="box">
+      <p>Forget Your Password <a href="#">Click Here</a></p>
+      <p>Dont Have An Account <a href="#">Create Now</a></p>
+      <input type="submit" value="Login Now" class="btn">
+    </form>
+  </header>
+  <!-- Header Section -->
+
+  <!-- banner section -->
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Fresh And <span>Organic</span> Products For You</h3>
+      <p>This Website Is Designed By Cyber Warriors YouTube Channel
+        So That Everyone Can Learn In An Easy Way That How To Create A
+        Website .</p>
+
+      <a href="#" class="btn">shop now</a>
+    </div>
+  </section>
+  <!-- banner section -->
+  <!-- our features section -->
+  <section class="features" id="features">
+    <h1 class="heading"> our <span>features</span> </h1>
+
+    <div class="box-container">
+      <div class="box">
+        <img src="images/features1.png">
+        <h3>fresh and organic</h3>
+
+        <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+          Deserunt, Earum !</p>
+
+        <a href="#" class="btn">read more</a>
+
+      </div>
+      <div class="box">
+        <img src="images/features2.png">
+        <h3>fresh and organic</h3>
+
+        <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+          Deserunt, Earum !</p>
+
+        <a href="#" class="btn">read more</a>
+
+      </div>
+      <div class="box">
+        <img src="images/features3.png">
+        <h3>fresh and organic</h3>
+
+        <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
+          Deserunt, Earum !</p>
+
+        <a href="#" class="btn">read more</a>
+
+      </div>
+    </div>
+  </section>
+  <!-- our features section -->
+  <!-- our products section -->
+  <section class="products" id="products">
+    <h1 class="heading"> our <span>products</span></h1>
+    <div class="product-slider">
+      <div class="wrapper">
         <div class="box">
-          <i class="fa fa-trash"></i>
-          <img src="images/watermelon.png" />
-          <div class="content">
-            <h3>watermelon</h3>
-            <span class="price">$5.99/-</span>
-            <span class="quantity">Qty :1</span>
+          <img src="image/product-1.png">
+          <h1>fresh orange</h1>
+          <div class="price"> $12.99/- - 15.99/-</div>
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i> I
           </div>
         </div>
-        <div class="box">
-            <i class="fa fa-trash"></i>
-            <img src="images/onion.png" />
-            <div class="content">
-              <h3>Onion</h3>
-              <span class="price">$4.99/-</span>
-              <span class="quantity">Qty :1</span>
-            </div>
-          </div>
-          <div class="box">
-            <i class="fa fa-trash"></i>
-            <img src="images/chicken.png" />
-            <div class="content">
-              <h3>Chicken</h3>
-              <span class="price">$2.99/-</span>
-              <span class="quantity">Qty :1</span>
-            </div>
-          </div>
-          <div class="total">
-
-            Total : $18.97/-
-          </div>
-          <a href="#" class="btn">checkout</a>
       </div>
-
-      <form action="#" class="login-form">
-        <h3>login now</h3>
-        <input type="email" placeholder="your email" class="box">
-        <input type="password" placeholder="your password" class="box">
-        <p>Forget Your Password <a href="#">Click Here</a></p>
-        <p>Dont Have An Account <a href="#">Create Now</a></p>
-        <input type="submit" value="Login Now" class="btn">
-        </form>
-    </header>
-<!-- Header Section -->
-
-<!-- banner section -->
-<section class="home" id="home">
-<div class="content">
-<h3>Fresh And <span>Organic</span> Products For You</h3>
-<p>This Website Is Designed By Cyber Warriors YouTube Channel
-So That Everyone Can Learn In An Easy Way That How To Create A
-Website .</p>
-
-<a href="#" class="btn">shop now</a>
-</div>
-</section>
-<!-- banner section -->
-<!-- our features section -->
-<section class="features" id="features">
-<h1 class="heading"> our <span>features</span> </h1>
-
-<div class="box-container">
-  <div class="box">
-  <img src="images/features1.png">
-  <h3>fresh and organic</h3>
-  
-  <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
-  Deserunt, Earum !</p>
-  
- <a href="#" class="btn">read more</a>
-  
-  </div>
-  <div class="box">
-    <img src="images/features2.png">
-    <h3>fresh and organic</h3>
-    
-    <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
-    Deserunt, Earum !</p>
-    
-   <a href="#" class="btn">read more</a>
-    
     </div>
-    <div class="box">
-      <img src="images/features3.png">
-      <h3>fresh and organic</h3>
-      
-      <p>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.
-      Deserunt, Earum !</p>
-      
-     <a href="#" class="btn">read more</a>
-      
-      </div>
-  </div>
-</section>
-<!-- our features section -->
+  </section>
+  <!-- our products section -->
 
-    <script src="js/script.js"></script>
-  </body>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
