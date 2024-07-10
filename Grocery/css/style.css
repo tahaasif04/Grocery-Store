@@ -407,7 +407,7 @@ text-align: center;
 /*products*/
 .products .product-slider 
 {
-    border: 1px solid;
+    border: 0px solid;
     padding: 1rem;
 
 }
@@ -417,7 +417,7 @@ text-align: center;
 }
 .products .product-slider .box 
 {
-    border: 1px solid red;
+    border: 0px solid red;
     background: #fff;
     border-radius: 0.5rem;
     text-align: center;
