@@ -75,3 +75,30 @@ window.onscroll = () =>
           },
         },
       });
+
+      var swiper = new Swiper(".review-slider", {
+        loop:true,
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        autoplay:{
+            delay:7500,
+            displayoninteraction:false,
+        },
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1020: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
